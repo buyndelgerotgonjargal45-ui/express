@@ -5,8 +5,7 @@ const classModel= require('./models/classModel.schema')
 const {compare, hash} = require('bcrypt')
 
 const connectDb = async() => {
-    await mongoose.connect('mongodb+srv://buyndelgerotgonjargal45_db_user:Do4LyWBs1BbPNS4v@cluster1.i1pdn0u.mongodb.net/')
-
+    
 }
 const app = express()
 app.use(express.json())
